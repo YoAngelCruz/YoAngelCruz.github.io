@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsAndCompetencesComponent } from './skills-and-competences/skills-and-competences.component';
+import { AchievementsAndCertificatesComponent } from './achievements-and-certificates/achievements-and-certificates.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SkillsAndCompetencesComponent } from './skills-and-competences/skills-a
     HeaderComponent,
     WorkExperienceComponent,
     EducationComponent,
-    SkillsAndCompetencesComponent
+    SkillsAndCompetencesComponent,
+    AchievementsAndCertificatesComponent
   ],
   imports: [
     BrowserModule,

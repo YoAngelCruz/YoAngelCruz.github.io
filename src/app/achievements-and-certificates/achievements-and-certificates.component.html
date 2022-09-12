@@ -1,0 +1,17 @@
+<h3>Logros y Certificaciones</h3>
+<ul *ngFor="let cr of certificates">
+    <li>
+        <tr>
+            <td>{{cr.logro}}</td>
+            <td>{{cr.fecha}}</td>
+        </tr>
+        <h4>Descripcion:</h4>
+        <ul *ngFor="let desc of cr.certificado">
+            <li>
+                <tr>
+                    {{ desc.descripcion }}
+                </tr>
+            </li>
+        </ul>
+    </li>
+</ul>
