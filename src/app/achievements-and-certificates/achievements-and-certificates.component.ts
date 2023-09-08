@@ -35,7 +35,7 @@ export class AchievementsAndCertificatesComponent implements OnInit {
       ]
     };
     let cert4 = {
-      logro:"Python Curse in Kaggle",
+      logro:"Pandas Curse in Kaggle",
       fecha:"2023",
       certificado : [
         {descripcion:"https://github.com/YoAngelCruz/curses/blob/main/pandas/pandas_certificate.png"},
