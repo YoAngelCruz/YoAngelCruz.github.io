@@ -9,7 +9,7 @@
         <ul *ngFor="let desc of cr.certificado">
             <li>
                 <tr>
-                    {{ desc.descripcion }}
+                    <a [href]="desc.descripcion" target="_blank">{{ desc.descripcion }}</a>
                 </tr>
             </li>
         </ul>

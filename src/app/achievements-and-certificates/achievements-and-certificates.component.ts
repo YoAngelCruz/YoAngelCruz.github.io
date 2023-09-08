@@ -27,9 +27,17 @@ export class AchievementsAndCertificatesComponent implements OnInit {
         {descripcion:"Titulo otorgado por el CETIS"},
       ]
     };
+    let cert3 = {
+      logro:"Python Curse in Kaggle",
+      fecha:"2023",
+      certificado : [
+        {descripcion:"https://github.com/YoAngelCruz/curse_python/blob/main/Angel%20Cruz%20-%20Python.png"},
+      ]
+    };
 
     this.certificates.push(cert1);
     this.certificates.push(cert2);
+    this.certificates.push(cert3);
 
   }
 
